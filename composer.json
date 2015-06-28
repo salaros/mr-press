@@ -10,8 +10,12 @@
         }
     ],
     "repositories": [],
-    "require": {},
-    "extra": {},
+    "require": {
+        "johnpbloch/wordpress": "*"
+    },
+    "extra": {
+        "wordpress-install-dir": "public"
+    },
     "minimum-stability": "stable",
     "prefer-stable": true,
     "autoload": {
