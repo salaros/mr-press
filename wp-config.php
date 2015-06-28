@@ -70,6 +70,12 @@ $table_prefix  = 'wp_';
  */
 define('WP_DEBUG', false);
 
+/**
+ * Redefine default Wordpress content (themes, plugins etc) folder location
+ */
+define ('WP_CONTENT_FOLDERNAME', 'wp-content');
+define ('WP_CONTENT_DIR', dirname(__FILE__) . '/'. WP_CONTENT_FOLDERNAME) ;
+
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
