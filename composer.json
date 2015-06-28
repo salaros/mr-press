@@ -1,27 +1,25 @@
 {
     "name": "salaros/wordpress-template",
     "description": "A Wordpress site template which should help concious developers to keep developing for Wordpress, while stay away from its sloopy code style",
-    "authors": [
-        {
-            "name": "Zhmayev Yaroslav",
-            "email": "salaros@yandex.ru",
-            "homepage": "https://github.com/salaros",
-            "role": "Developer"
-        }
-    ],
+    "authors": [{
+        "name": "Zhmayev Yaroslav",
+        "email": "salaros@yandex.ru",
+        "homepage": "https://github.com/salaros",
+        "role": "Developer"
+    }],
     "repositories": [{
         "type": "composer",
         "url": "http://wpackagist.org"
     }],
     "require": {
         "johnpbloch/wordpress": "*",
-	"wpackagist-plugin/hello-dolly":"*",
-	"wpackagist-theme/twentyten":"*",
-	"wpackagist-theme/twentyeleven":"*",
-	"wpackagist-theme/twentytwelve":"*",
-	"wpackagist-theme/twentythirteen":"*",
-	"wpackagist-theme/twentyfourteen":"*",
-	"wpackagist-theme/twentyfifteen":"*"
+        "wpackagist-plugin/hello-dolly": "*",
+        "wpackagist-theme/twentyten": "*",
+        "wpackagist-theme/twentyeleven": "*",
+        "wpackagist-theme/twentytwelve": "*",
+        "wpackagist-theme/twentythirteen": "*",
+        "wpackagist-theme/twentyfourteen": "*",
+        "wpackagist-theme/twentyfifteen": "*"
     },
     "extra": {
         "wordpress-install-dir": "public",
