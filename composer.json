@@ -9,12 +9,23 @@
             "role": "Developer"
         }
     ],
-    "repositories": [],
+    "repositories": [{
+        "type": "composer",
+        "url": "http://wpackagist.org"
+    }],
     "require": {
         "johnpbloch/wordpress": "*"
     },
     "extra": {
-        "wordpress-install-dir": "public"
+        "wordpress-install-dir": "public",
+        "installer-paths": {
+            "wp-content/plugins/{$name}/": [
+                "type:wordpress-plugin"
+            ],
+            "wp-content/themes/{$name}/": [
+                "type:wordpress-theme"
+            ]
+        }
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
