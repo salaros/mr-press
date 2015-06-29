@@ -14,12 +14,14 @@
     "require": {
         "johnpbloch/wordpress": "*",
         "wpackagist-plugin/hello-dolly": "*",
+        "wpackagist-plugin/timber-library": "*",
         "wpackagist-theme/twentyten": "*",
         "wpackagist-theme/twentyeleven": "*",
         "wpackagist-theme/twentytwelve": "*",
         "wpackagist-theme/twentythirteen": "*",
         "wpackagist-theme/twentyfourteen": "*",
-        "wpackagist-theme/twentyfifteen": "*"
+        "wpackagist-theme/twentyfifteen": "*",
+        "salaros/wordpress-template-theme": "*@dev"
     },
     "extra": {
         "wordpress-install-dir": "public",
