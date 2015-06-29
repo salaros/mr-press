@@ -1,6 +1,7 @@
 {
     "name": "salaros/wordpress-template",
     "description": "A Wordpress site template which should help concious developers to keep developing for Wordpress, while stay away from its sloopy code style",
+    "type": "project",
     "authors": [{
         "name": "Zhmayev Yaroslav",
         "email": "salaros@yandex.ru",
