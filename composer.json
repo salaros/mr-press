@@ -21,8 +21,7 @@
         "wpackagist-theme/twentytwelve": "*",
         "wpackagist-theme/twentythirteen": "*",
         "wpackagist-theme/twentyfourteen": "*",
-        "wpackagist-theme/twentyfifteen": "*",
-        "salaros/wordpress-template-theme": "*@dev"
+        "wpackagist-theme/twentyfifteen": "*"
     },
     "extra": {
         "wordpress-install-dir": "public",
@@ -34,6 +33,9 @@
                 "type:wordpress-theme"
             ]
         }
+    },
+    "suggests": {
+        "salaros/wordpress-template-theme": "Shows out Twig-based templating, thanks to Timber Library team"
     },
     "minimum-stability": "stable",
     "prefer-stable": true,

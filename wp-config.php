@@ -76,9 +76,6 @@ define('WP_DEBUG', false);
 define ('WP_CONTENT_FOLDERNAME', 'wp-content');
 define ('WP_CONTENT_DIR', dirname(__FILE__) . '/'. WP_CONTENT_FOLDERNAME) ;
 
-/** Defines a default theme for new sites, also used as fallback for a broken theme. */
-define( 'WP_DEFAULT_THEME', 'wordpress-template-theme' );
-
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
