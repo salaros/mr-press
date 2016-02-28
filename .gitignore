@@ -3,3 +3,5 @@
 /public
 /wp-content/themes
 /wp-content/plugins
+wp-config.php
+wp-cli.local.yml
