@@ -15,6 +15,7 @@
 	"minimum-stability": "stable",
 	"prefer-stable": true,
     "require": {
+		"wp-cli/wp-cli": "~0.20",
         "johnpbloch/wordpress": "*",
         "wpackagist-plugin/timber-library": "*",
         "wpackagist-theme/twentysixteen": "*"
@@ -33,6 +34,15 @@
     "suggests": {
         "salaros/wordpress-template-theme": "Shows out Twig-based templating, thanks to Timber Library team"
     },
+	"scripts": {
+		"post-create-project-cmd": [
+			"php -r \"copy('wp-cli.yml', 'wp-cli.local.yml');\"",
+			"bash scripts/config.sh"
+		],
+		"initialize" : [
+			"bash scripts/initialize.sh"
+		]
+	},
     "autoload": {
         "psr-0": {}
     }

@@ -1,0 +1,6 @@
+path: public
+url: http://example.com
+core config:
+	dbuser: root
+	dbpass:
+	dbname: example.org
