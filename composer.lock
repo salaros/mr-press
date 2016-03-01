@@ -4,9 +4,164 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7f7dc482410e1e4ed7c97633769def1e",
-    "content-hash": "02a1c79c0547ea5208a971b7921de48c",
+    "hash": "0a0482bee5d161698f3f12f42f6819b1",
+    "content-hash": "dc0515df3ac55aa1aaaa732a697645fb",
     "packages": [
+        {
+            "name": "bower-asset/bootstrap",
+            "version": "v3.3.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/bootstrap.git",
+                "reference": "81df608a40bf0629a1dc08e584849bb1e43e0b7a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/81df608a40bf0629a1dc08e584849bb1e43e0b7a",
+                "reference": "81df608a40bf0629a1dc08e584849bb1e43e0b7a",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/jquery": ">=1.9.1,<=2"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "less/bootstrap.less",
+                    "dist/js/bootstrap.js"
+                ],
+                "bower-asset-ignore": [
+                    "/.*",
+                    "_config.yml",
+                    "CNAME",
+                    "composer.json",
+                    "CONTRIBUTING.md",
+                    "docs",
+                    "js/tests",
+                    "test-infra"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+            "keywords": [
+                "css",
+                "framework",
+                "front-end",
+                "js",
+                "less",
+                "mobile-first",
+                "responsive",
+                "web"
+            ]
+        },
+        {
+            "name": "bower-asset/html5shiv",
+            "version": "3.7.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aFarkas/html5shiv.git",
+                "reference": "ed28c56c071bddfe7d635ad88995674957a016be"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aFarkas/html5shiv/zipball/ed28c56c071bddfe7d635ad88995674957a016be",
+                "reference": "ed28c56c071bddfe7d635ad88995674957a016be",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "dist/html5shiv.js"
+                ],
+                "bower-asset-ignore": [
+                    "**/.*",
+                    "composer.json",
+                    "test",
+                    "build",
+                    "src",
+                    "build.xml"
+                ]
+            }
+        },
+        {
+            "name": "bower-asset/jquery",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jquery/jquery-dist.git",
+                "reference": "a55c5eeb709b584f58a1f3d8d0bc9f1432cd998a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jquery/jquery-dist/zipball/a55c5eeb709b584f58a1f3d8d0bc9f1432cd998a",
+                "reference": "a55c5eeb709b584f58a1f3d8d0bc9f1432cd998a",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "jquery.js"
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "jQuery component",
+            "keywords": [
+                "component",
+                "jquery"
+            ]
+        },
+        {
+            "name": "bower-asset/normalize.css",
+            "version": "3.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/necolas/normalize.css.git",
+                "reference": "2bdda84272650aedfb45d8abe11a6d177933a803"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/necolas/normalize.css/zipball/2bdda84272650aedfb45d8abe11a6d177933a803",
+                "reference": "2bdda84272650aedfb45d8abe11a6d177933a803",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "normalize.css",
+                "bower-asset-ignore": [
+                    "CHANGELOG.md",
+                    "CONTRIBUTING.md",
+                    "component.json",
+                    "package.json",
+                    "test.html"
+                ]
+            }
+        },
+        {
+            "name": "bower-asset/respond",
+            "version": "1.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/scottjehl/Respond.git",
+                "reference": "20b7f4a192bb910c8c7e067b961de38519d334e4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/scottjehl/Respond/zipball/20b7f4a192bb910c8c7e067b961de38519d334e4",
+                "reference": "20b7f4a192bb910c8c7e067b961de38519d334e4",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "dest/respond.src.js",
+                "bower-asset-ignore": [
+                    "**/.*",
+                    "test"
+                ]
+            },
+            "description": "Fast and lightweight polyfill for min/max-width CSS3 Media Queries (for IE 6-8, and more)"
+        },
         {
             "name": "composer/installers",
             "version": "v1.0.23",
@@ -165,6 +320,62 @@
                 "versioning"
             ],
             "time": "2015-09-21 09:42:36"
+        },
+        {
+            "name": "fxp/composer-asset-plugin",
+            "version": "v1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/francoispluchino/composer-asset-plugin.git",
+                "reference": "bae7a15712e9339a2439aeca3b7c5ecf65b087d1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/francoispluchino/composer-asset-plugin/zipball/bae7a15712e9339a2439aeca3b7c5ecf65b087d1",
+                "reference": "bae7a15712e9339a2439aeca3b7c5ecf65b087d1",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0",
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "composer/composer": "~1.0@dev"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Fxp\\Composer\\AssetPlugin\\FxpAssetPlugin",
+                "branch-alias": {
+                    "dev-master": "1.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Fxp\\Composer\\AssetPlugin\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "François Pluchino",
+                    "email": "francois.pluchino@gmail.com"
+                }
+            ],
+            "description": "NPM/Bower Dependency Manager for Composer",
+            "homepage": "https://github.com/francoispluchino/composer-asset-plugin",
+            "keywords": [
+                "asset",
+                "bower",
+                "composer",
+                "dependency manager",
+                "nodejs",
+                "npm",
+                "package"
+            ],
+            "time": "2016-02-25 16:35:08"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -478,6 +689,56 @@
                 "sockets"
             ],
             "time": "2014-05-18 04:59:02"
+        },
+        {
+            "name": "salaros/wordpress-template-theme",
+            "version": "0.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/salaros/wordpress-template-theme.git",
+                "reference": "37744de7f9d4e3e7b8f187bb1e6f8cb02d903faf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/salaros/wordpress-template-theme/zipball/37744de7f9d4e3e7b8f187bb1e6f8cb02d903faf",
+                "reference": "37744de7f9d4e3e7b8f187bb1e6f8cb02d903faf",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/bootstrap": "~3.3.0",
+                "bower-asset/html5shiv": "~3.7.0",
+                "bower-asset/normalize.css": "~3.0.0",
+                "bower-asset/respond": "~1.4.0",
+                "fxp/composer-asset-plugin": "*"
+            },
+            "type": "wordpress-theme",
+            "extra": {
+                "asset-installer-paths": {
+                    "npm-asset-library": "../../npm-asset",
+                    "bower-asset-library": "../../bower-asset"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Salaros\\Wordpress\\Template\\": "classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Upstatement team",
+                    "homepage": "http://upstatement.com",
+                    "role": "Author"
+                },
+                {
+                    "name": "Zhmayev Yaroslav",
+                    "email": "salaros@salaros.com",
+                    "homepage": "https://github.com/salaros",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A sample theme of wordpress-template project.",
+            "time": "2016-03-01 22:48:48"
         },
         {
             "name": "symfony/config",

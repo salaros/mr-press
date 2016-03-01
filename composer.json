@@ -17,8 +17,10 @@
     "require": {
 		"wp-cli/wp-cli": "~0.20",
         "johnpbloch/wordpress": "*",
+        "fxp/composer-asset-plugin": "*",
         "wpackagist-plugin/timber-library": "*",
-        "wpackagist-plugin/advanced-custom-fields": "*"
+        "wpackagist-plugin/advanced-custom-fields": "*",
+		"salaros/wordpress-template-theme": "*"
     },
     "extra": {
         "wordpress-install-dir": "public",
@@ -29,6 +31,10 @@
             "wp-content/themes/{$name}/": [
                 "type:wordpress-theme"
             ]
+        },
+        "asset-installer-paths": {
+            "npm-asset-library": "wp-content/npm-asset",
+            "bower-asset-library": "wp-content/bower-asset"
         }
     },
 	"scripts": {

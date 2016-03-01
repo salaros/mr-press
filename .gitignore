@@ -1,6 +1,8 @@
 *.bak
 /vendor
 /public
+/wp-content/bower-asset
+/wp-content/npm-asset
 /wp-content/themes
 /wp-content/plugins
 wp-config.php
