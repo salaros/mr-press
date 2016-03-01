@@ -1,0 +1,26 @@
+{
+    "language": {
+        "javascript": {
+            "linting.prefer": [
+                "JSLint",
+                "JSHint"
+            ],
+            "linting.usePreferredOnly": true
+        }
+    },
+    "spaceUnits": 4,
+    "useTabChar": false,
+    "brackets-file-tree-exclude.excludeList": [
+        "/.git/",
+        "/dist/",
+        "/bin/",
+        "/components/",
+        "/vendor/",
+        "/public/",
+        "/logs/",
+        "/plugins/",
+        "/uploads/",
+        "/cache/",
+        "/backup-db/"
+    ]
+}
