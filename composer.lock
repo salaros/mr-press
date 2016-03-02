@@ -4,9 +4,67 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0a0482bee5d161698f3f12f42f6819b1",
-    "content-hash": "dc0515df3ac55aa1aaaa732a697645fb",
+    "hash": "01a0683888e5f2b2ce66e9a57d2e492d",
+    "content-hash": "0f8febc2cb966615ff8380e9e1d8d824",
     "packages": [
+        {
+            "name": "anolilab/wordpress-salt-generator",
+            "version": "v1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/anolilab/wordpress-salt-generator.git",
+                "reference": "071e1145f45c7573a6d08247dcfbf8eb66779f23"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/anolilab/wordpress-salt-generator/zipball/071e1145f45c7573a6d08247dcfbf8eb66779f23",
+                "reference": "071e1145f45c7573a6d08247dcfbf8eb66779f23",
+                "shasum": ""
+            },
+            "require": {
+                "ircmaxell/random-lib": "^1.1",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "composer/composer": "^1",
+                "fabpot/php-cs-fixer": "~1.10",
+                "mockery/mockery": "~0.9.4",
+                "phpunit/phpunit": "~4.8.8",
+                "scrutinizer/ocular": "~1.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Anolilab\\Wordpress\\SaltGenerator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel Bannert",
+                    "email": "d.bannert@anolilab.de",
+                    "homepage": "http://anolilab.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Generates the salts for the Wordpress Composer projects.",
+            "homepage": "https://github.com/anolilab/wordpress-salt-generator",
+            "keywords": [
+                "composer",
+                "generator",
+                "salts",
+                "wordpress"
+            ],
+            "time": "2015-10-30 10:09:10"
+        },
         {
             "name": "bower-asset/bootstrap",
             "version": "v3.3.6",
@@ -376,6 +434,101 @@
                 "package"
             ],
             "time": "2016-02-25 16:35:08"
+        },
+        {
+            "name": "ircmaxell/random-lib",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ircmaxell/RandomLib.git",
+                "reference": "13efa4368bb2ac88bb3b1459b487d907de4dbf7c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ircmaxell/RandomLib/zipball/13efa4368bb2ac88bb3b1459b487d907de4dbf7c",
+                "reference": "13efa4368bb2ac88bb3b1459b487d907de4dbf7c",
+                "shasum": ""
+            },
+            "require": {
+                "ircmaxell/security-lib": "1.0.*@dev",
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "1.1.*",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "RandomLib": "lib"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anthony Ferrara",
+                    "email": "ircmaxell@ircmaxell.com",
+                    "homepage": "http://blog.ircmaxell.com"
+                }
+            ],
+            "description": "A Library For Generating Secure Random Numbers",
+            "homepage": "https://github.com/ircmaxell/RandomLib",
+            "keywords": [
+                "cryptography",
+                "random",
+                "random-numbers",
+                "random-strings"
+            ],
+            "time": "2015-01-15 16:31:45"
+        },
+        {
+            "name": "ircmaxell/security-lib",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ircmaxell/SecurityLib.git",
+                "reference": "80934de3c482dcafb46b5756e59ebece082b6dc7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ircmaxell/SecurityLib/zipball/80934de3c482dcafb46b5756e59ebece082b6dc7",
+                "reference": "80934de3c482dcafb46b5756e59ebece082b6dc7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "1.1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "SecurityLib": "lib"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anthony Ferrara",
+                    "email": "ircmaxell@ircmaxell.com",
+                    "homepage": "http://blog.ircmaxell.com"
+                }
+            ],
+            "description": "A Base Security Library",
+            "homepage": "https://github.com/ircmaxell/PHP-SecurityLib",
+            "time": "2013-04-30 18:00:34"
         },
         {
             "name": "johnpbloch/wordpress",

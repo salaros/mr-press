@@ -17,6 +17,7 @@
     "require": {
 		"wp-cli/wp-cli": "~0.20",
         "johnpbloch/wordpress": "*",
+        "anolilab/wordpress-salt-generator": "*",
         "fxp/composer-asset-plugin": "*",
         "wpackagist-plugin/timber-library": "*",
         "wpackagist-plugin/advanced-custom-fields": "*",
@@ -39,14 +40,21 @@
     },
 	"scripts": {
 		"post-create-project-cmd": [
+            "php -r \"copy('.env.example', '.env');\"",
 			"php -r \"copy('wp-cli.yml', 'wp-cli.local.yml');\"",
 			"bash scripts/config.sh"
 		],
+        "post-root-package-install": [
+            "Anolilab\\Wordpress\\SaltGenerator\\Generator::addSalts"
+        ],
 		"initialize" : [
 			"bash scripts/initialize.sh"
 		]
 	},
+    "config": {
+        "generate-salts": true
+    },
     "autoload": {
-        "psr-0": {}
+        "psr-4": {}
     }
 }
