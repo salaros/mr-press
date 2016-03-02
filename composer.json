@@ -40,7 +40,6 @@
     },
 	"scripts": {
 		"post-create-project-cmd": [
-            "php -r \"copy('.env.example', '.env');\"",
 			"php -r \"copy('wp-cli.yml', 'wp-cli.local.yml');\"",
 			"bash scripts/config.sh",
             "Anolilab\\Wordpress\\SaltGenerator\\Generator::addSalts"
