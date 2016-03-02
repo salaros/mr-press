@@ -42,11 +42,9 @@
 		"post-create-project-cmd": [
             "php -r \"copy('.env.example', '.env');\"",
 			"php -r \"copy('wp-cli.yml', 'wp-cli.local.yml');\"",
-			"bash scripts/config.sh"
-		],
-        "post-root-package-install": [
+			"bash scripts/config.sh",
             "Anolilab\\Wordpress\\SaltGenerator\\Generator::addSalts"
-        ],
+		],
 		"initialize" : [
 			"bash scripts/initialize.sh"
 		]
@@ -55,6 +53,6 @@
         "generate-salts": true
     },
     "autoload": {
-        "psr-4": {}
+        "psr-4": { }
     }
 }
