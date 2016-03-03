@@ -5,5 +5,5 @@
 /wp-content/npm-asset
 /wp-content/themes
 /wp-content/plugins
-wp-config.php
-wp-cli.local.yml
+/conf/cron.d/wptpl-cron-job
+/.env

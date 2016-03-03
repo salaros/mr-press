@@ -18,10 +18,11 @@
 		"wp-cli/wp-cli": "~0.20",
         "johnpbloch/wordpress": "*",
         "anolilab/wordpress-salt-generator": "*",
+        "vlucas/phpdotenv": "*",
         "fxp/composer-asset-plugin": "*",
         "wpackagist-plugin/timber-library": "*",
         "wpackagist-plugin/advanced-custom-fields": "*",
-		"salaros/wordpress-template-theme": "*"
+	"salaros/wordpress-template-theme": "*"
     },
     "extra": {
         "wordpress-install-dir": "public",
@@ -40,8 +41,6 @@
     },
 	"scripts": {
 		"post-create-project-cmd": [
-			"php -r \"copy('wp-cli.yml', 'wp-cli.local.yml');\"",
-			"bash scripts/config.sh",
             "Anolilab\\Wordpress\\SaltGenerator\\Generator::addSalts"
 		],
 		"initialize" : [
