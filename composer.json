@@ -8,9 +8,7 @@
         "homepage": "https://github.com/salaros",
         "role": "Developer"
     }],
-    {
-        "license": "MIT"
-    },
+    "license": "MIT",
     "repositories": [{
         "type": "composer",
         "url": "http://wpackagist.org"
