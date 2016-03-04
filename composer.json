@@ -1,6 +1,6 @@
 {
-    "name": "salaros/wordpress-template",
-    "description": "A Wordpress site template which should help concious developers to keep developing for Wordpress, staying away from its sloopy code style",
+    "name": "salaros/mr-press",
+    "description": "Mr. Press is a WordPress development stack similar to Bedrock. Project's main goal is to improve the overall security, portability and deployment process of WordPress, while trying to use the best web development practices.",
     "type": "project",
     "authors": [{
         "name": "Zhmayev Yaroslav",
@@ -15,6 +15,8 @@
 	"minimum-stability": "stable",
 	"prefer-stable": true,
     "require": {
+        "php": ">=5.5 | 7.0",
+        "ext-mysql": "*",
 		"wp-cli/wp-cli": "~0.20",
         "johnpbloch/wordpress": "*",
         "anolilab/wordpress-salt-generator": "*",
@@ -22,7 +24,7 @@
         "fxp/composer-asset-plugin": "*",
         "wpackagist-plugin/timber-library": "*",
         "wpackagist-plugin/advanced-custom-fields": "*",
-	"salaros/wordpress-template-theme": "*"
+        "salaros/wordpress-template-theme": "*"
     },
     "extra": {
         "wordpress-install-dir": "public",

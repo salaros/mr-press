@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8645c3999b76dc3d4dc084d8a4b7a695",
-    "content-hash": "c38b68931ada3d2dd0876e7eb54142bd",
+    "hash": "e4307466fd28d4e39ecaac4a5e4451c5",
+    "content-hash": "558b6dac317b4c85db214562eaa3b2ae",
     "packages": [
         {
             "name": "anolilab/wordpress-salt-generator",
@@ -1549,6 +1549,9 @@
     "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=5.5 | 7.0",
+        "ext-mysql": "*"
+    },
     "platform-dev": []
 }
