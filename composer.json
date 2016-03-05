@@ -16,7 +16,7 @@
     "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
-        "php": ">=5.5 | 7.0",
+        "php": ">=5.5",
         "ext-mysql": "*",
         "wp-cli/wp-cli": "~0.20",
         "johnpbloch/wordpress": "*",
@@ -51,6 +51,9 @@
             "Salaros\\MrPress\\Composer\\Scripts::createDatabase",
             "Salaros\\MrPress\\Composer\\Scripts::createTables",
             "Salaros\\MrPress\\Composer\\Scripts::activatePlugins"
+        ],
+        "create-cron-job": [
+            "bash scripts/create-cron-job.sh"
         ]
     },
     "config": {
