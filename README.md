@@ -1,6 +1,6 @@
-# mr-press
+# Mr. Press
 
-**mr-press** is a [WordPress](https://wordpress.org/) development stack similar to [Bedrock](https://github.com/roots/bedrock).
+**Mr. Press** is a [WordPress](https://wordpress.org/) development stack similar to [Bedrock](https://github.com/roots/bedrock).
 Project's main goal is to improve the overall security, portability and deployment process of WordPress, while trying to use the best web development practices.
 
 ## Features
@@ -10,7 +10,7 @@ Project's main goal is to improve the overall security, portability and deployme
 * Critical WordPress settings (such as site URL, database credentials etc) are loaded from the environment variables
 * WP Cron is disabled by default and there is a ready-to-use cron job to run
 
-### mr-press default theme's features
+### Mr. Press default theme's features
 
 * [Bootstrap](http://getbootstrap.com/) responsive layout
 * Clean templates using [Twig](http://getbootstrap.com/) templates via [Timber](http://twig.sensiolabs.org/) plugin
@@ -33,13 +33,17 @@ Make sure that Composer and the rest of the requirements are installed.
 
 Just go the web root folder (usually it's `/var/www`) and create your copy of the project:
 
-    cd /var/wwww
-    composer create-project salaros/mr-press my-new-website
+``` bash
+$ cd /var/wwww
+$ composer create-project salaros/mr-press my-new-website
+```
 
 Now change to `/var/www/my-new-website` directory and edit the `.env` file and chnage DB connection settings and site URL:
 
-    editor /var/www/my-new-website/.env
-    composer run-script initialize
+``` bash
+$ editor /var/www/my-new-website/.env
+$ composer run-script initialize
+```
 
 ## Contributing
 
@@ -51,8 +55,12 @@ Now change to `/var/www/my-new-website` directory and edit the `.env` file and c
 
 ## Known bugs
 
-* **mr-press** has been tested on Linux and might also work correctly on Mac OS X. Windows compatibility will be implemented later
-* Most likely **mr-press** isnot compatible with WordPress multisie, but this feature has been already added to the RoadMap
+* **Mr. Press** has been tested on Linux and might also work correctly on Mac OS X. Windows compatibility will be implemented later
+* Most likely **Mr. Press** is not compatible with WordPress multisie, but this feature has been already added to the RoadMap
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
 ## Credits
 
