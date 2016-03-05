@@ -48,6 +48,17 @@ $ editor .env
 $ composer run-script initialize
 ```
 
+### Create cron job
+
+Since [WP Cron is disabled](https://www.lucasrolff.com/wordpress/why-wp-cron-sucks/) by default you'd better run the commands below in order to enable a system [cron job](https://en.wikipedia.org/wiki/Cron) which triggers WP Cron every 5 min:
+
+*PLEASE NOTE: `create-cron-job` requires administrator privileges, so you should run it as root ([super user](https://en.wikipedia.org/wiki/Superuser)) or [sudoer user](https://help.ubuntu.com/community/Sudoers).*
+
+``` bash
+$ cd /var/www/my-new-website
+$ composer run-script create-cron-job
+```
+
 ## Contributing
 
 1. Fork it: `https://github.com/salaros/wordpress-template`
