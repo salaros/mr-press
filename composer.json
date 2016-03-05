@@ -48,7 +48,7 @@
             "Anolilab\\Wordpress\\SaltGenerator\\Generator::addSalts"
 		],
         "initialize" : [
-            "Salaros\\MrPress\\Composer\\Scipts::createDatabase"
+            "Salaros\\MrPress\\Composer\\Scripts::createDatabase"
         ]
 	},
     "config": {
