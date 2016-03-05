@@ -38,10 +38,13 @@ $ cd /var/wwww
 $ composer create-project salaros/mr-press my-new-website
 ```
 
+### Create WordPress tables
+
 Now change to `/var/www/my-new-website` directory and edit the `.env` file and chnage DB connection settings and site URL:
 
 ``` bash
-$ editor /var/www/my-new-website/.env
+$ cd /var/www/my-new-website
+$ editor .env
 $ composer run-script initialize
 ```
 
