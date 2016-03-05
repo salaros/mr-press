@@ -5,9 +5,9 @@ Project's main goal is to improve the overall security, portability and deployme
 
 ## Features
 
-* WordPress, its themes and plugins are installed and updated via Composer
+* WordPress, its themes and plugins are installed and updated via Composer!
 * `wp-content` folder has been relocated, so it won't mess up with WordPress core
-* Critical WordPress settings (such as site URL, database credentials etc) are loaded from the environment variables
+* Critical WordPress settings (such as site URL, database credentials etc) are [loaded from the environment variables](http://12factor.net/config)
 * [WP Cron is disabled](https://www.lucasrolff.com/wordpress/why-wp-cron-sucks/) by default and there is a ready-to-use cron job to run
 
 ### Mr. Press default theme's features
