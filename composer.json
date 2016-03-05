@@ -13,12 +13,12 @@
         "type": "composer",
         "url": "http://wpackagist.org"
     }],
-	"minimum-stability": "stable",
-	"prefer-stable": true,
+    "minimum-stability": "stable",
+    "prefer-stable": true,
     "require": {
         "php": ">=5.5 | 7.0",
         "ext-mysql": "*",
-		"wp-cli/wp-cli": "~0.20",
+        "wp-cli/wp-cli": "~0.20",
         "johnpbloch/wordpress": "*",
         "anolilab/wordpress-salt-generator": "*",
         "vlucas/phpdotenv": "*",
@@ -43,14 +43,16 @@
             "bower-asset-library": "wp-content/bower-asset"
         }
     },
-	"scripts": {
-		"post-create-project-cmd": [
+    "scripts": {
+        "post-create-project-cmd": [
             "Anolilab\\Wordpress\\SaltGenerator\\Generator::addSalts"
-		],
-        "initialize" : [
-            "Salaros\\MrPress\\Composer\\Scripts::createDatabase"
+        ],
+        "initialize": [
+            "Salaros\\MrPress\\Composer\\Scripts::createDatabase",
+            "Salaros\\MrPress\\Composer\\Scripts::createTables",
+            "Salaros\\MrPress\\Composer\\Scripts::activatePlugins"
         ]
-	},
+    },
     "config": {
         "generate-salts": true
     }
