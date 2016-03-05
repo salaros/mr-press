@@ -25,7 +25,8 @@
         "fxp/composer-asset-plugin": "*",
         "wpackagist-plugin/timber-library": "*",
         "wpackagist-plugin/advanced-custom-fields": "*",
-        "salaros/wordpress-template-theme": "*"
+        "salaros/wordpress-template-theme": "*",
+        "salaros/mr-press-composer": "*"
     },
     "extra": {
         "wordpress-install-dir": "public",
@@ -46,14 +47,11 @@
 		"post-create-project-cmd": [
             "Anolilab\\Wordpress\\SaltGenerator\\Generator::addSalts"
 		],
-		"initialize" : [
-			"bash scripts/initialize.sh"
-		]
+        "initialize" : [
+            "Salaros\\MrPress\\Composer\\Scipts::createDatabase"
+        ]
 	},
     "config": {
         "generate-salts": true
-    },
-    "autoload": {
-        "psr-4": { }
     }
 }

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e4307466fd28d4e39ecaac4a5e4451c5",
-    "content-hash": "558b6dac317b4c85db214562eaa3b2ae",
+    "hash": "2fd31350c22c5364c46b7be15ad7a5fc",
+    "content-hash": "89f32dac87a6e227a5fc36d5b424eba5",
     "packages": [
         {
             "name": "anolilab/wordpress-salt-generator",
@@ -842,6 +842,54 @@
                 "sockets"
             ],
             "time": "2014-05-18 04:59:02"
+        },
+        {
+            "name": "salaros/mr-press-composer",
+            "version": "0.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/salaros/mr-press-composer.git",
+                "reference": "d17dac4c4b3dc30a3e268887f4d26098c59a02ea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/salaros/mr-press-composer/zipball/d17dac4c4b3dc30a3e268887f4d26098c59a02ea",
+                "reference": "d17dac4c4b3dc30a3e268887f4d26098c59a02ea",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0",
+                "vlucas/phpdotenv": "*",
+                "wp-cli/wp-cli": "~0.20"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Salaros\\MrPress\\Composer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Zhmayev Yaroslav",
+                    "email": "salaros@yandex.ru",
+                    "homepage": "https://github.com/salaros",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Set of tools used during installation and configuration of Mr. Press project.",
+            "homepage": "https://github.com/salaros/mr-press-composer",
+            "keywords": [
+                "composer",
+                "database",
+                "deploy",
+                "script",
+                "wordpress"
+            ],
+            "time": "2016-03-05 16:57:07"
         },
         {
             "name": "salaros/wordpress-template-theme",
