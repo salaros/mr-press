@@ -1,62 +1,73 @@
 {
-    "name": "salaros/mr-press",
-    "description": "Mr. Press is a WordPress development stack similar to Bedrock. Project's main goal is to improve the overall security, portability and deployment process of WordPress, while trying to use the best web development practices.",
-    "type": "project",
-    "authors": [{
-        "name": "Zhmayev Yaroslav",
-        "email": "salaros@yandex.ru",
-        "homepage": "https://github.com/salaros",
-        "role": "Developer"
-    }],
-    "license": "MIT",
-    "repositories": [{
-        "type": "composer",
-        "url": "http://wpackagist.org"
-    }],
-    "minimum-stability": "stable",
-    "prefer-stable": true,
+    "name"          : "salaros/mr-press",
+    "description"   : "Mr. Press is a WordPress development stack similar to Bedrock. Project's main goal is to improve the overall security, portability and deployment process of WordPress, while trying to use the best web development practices.",
+    "keywords"      : [
+        "wordpress", "project", "template", "deploy"
+    ],
+    "type"          : "project",
+    "license"       : "MIT",
+    "homepage"      : "https://github.com/salaros/mr-press-composer",
+    "support": {
+        "issues"        : "https://github.com/salaros/mr-press-composer/issues",
+        "source"        : "https://github.com/salaros/mr-press-composer"
+    },
+    "authors"       : [
+        {
+            "name"      : "Zhmayev Yaroslav",
+            "email"     : "salaros@yandex.ru",
+            "homepage"  : "https://github.com/salaros",
+            "role"      : "Developer"
+        }
+    ],
+    "repositories"  : [
+        {
+            "type"      : "composer",
+            "url"       : "http://wpackagist.org"
+        }
+    ],
     "require": {
-        "php": ">=5.5",
-        "ext-mysql": "*",
-        "wp-cli/wp-cli": "~0.20",
-        "johnpbloch/wordpress": "*",
-        "anolilab/wordpress-salt-generator": "*",
-        "vlucas/phpdotenv": "*",
-        "fxp/composer-asset-plugin": "*",
-        "wpackagist-plugin/timber-library": "*",
-        "wpackagist-plugin/advanced-custom-fields": "*",
-        "salaros/mr-press-theme": "*",
-        "salaros/mr-press-composer": "*"
+        "php"                                       : ">=5.5",
+        "wp-cli/wp-cli"                             : "~0.20",
+        "johnpbloch/wordpress"                      : "*",
+        "anolilab/wordpress-salt-generator"         : "*",
+        "vlucas/phpdotenv"                          : "*",
+        "fxp/composer-asset-plugin"                 : "*",
+        "wpackagist-plugin/timber-library"          : "*",
+        "wpackagist-plugin/advanced-custom-fields"  : "*",
+        "salaros/mr-press-theme"                    : "*",
+        "salaros/mr-press-composer"                 : "*"
     },
     "extra": {
-        "wordpress-install-dir": "public",
+        "wordpress-install-dir"             : "public",
         "installer-paths": {
-            "wp-content/plugins/{$name}/": [
+            "wp-content/plugins/{$name}/"   : [
                 "type:wordpress-plugin"
             ],
-            "wp-content/themes/{$name}/": [
+            "wp-content/themes/{$name}/"    : [
                 "type:wordpress-theme"
             ]
         },
         "asset-installer-paths": {
-            "npm-asset-library": "wp-content/npm-asset",
-            "bower-asset-library": "wp-content/bower-asset"
+            "npm-asset-library"             : "wp-content/npm-asset",
+            "bower-asset-library"           : "wp-content/bower-asset"
         }
     },
     "scripts": {
-        "post-create-project-cmd": [
+        "post-create-project-cmd"           : [
             "Anolilab\\Wordpress\\SaltGenerator\\Generator::addSalts"
         ],
-        "initialize": [
+        "initialize"                        : [
             "Salaros\\MrPress\\Composer\\Scripts::createDatabase",
             "Salaros\\MrPress\\Composer\\Scripts::createTables",
             "Salaros\\MrPress\\Composer\\Scripts::activatePlugins"
         ],
-        "create-cron-job": [
+        "create-cron-job"                   : [
             "bash scripts/create-cron-job.sh"
         ]
     },
+    "minimum-stability"                     : "stable",
+    "prefer-stable"                         : true,
     "config": {
-        "generate-salts": true
+        "generate-salts"                    : true
     }
 }
