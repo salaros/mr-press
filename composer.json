@@ -25,7 +25,7 @@
         "fxp/composer-asset-plugin": "*",
         "wpackagist-plugin/timber-library": "*",
         "wpackagist-plugin/advanced-custom-fields": "*",
-        "salaros/wordpress-template-theme": "*",
+        "salaros/mr-press-theme": "*",
         "salaros/mr-press-composer": "*"
     },
     "extra": {
