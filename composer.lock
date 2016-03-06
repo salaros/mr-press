@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2fd31350c22c5364c46b7be15ad7a5fc",
-    "content-hash": "89f32dac87a6e227a5fc36d5b424eba5",
+    "hash": "cacd9b0c7765518e0abf5c349e7ae1df",
+    "content-hash": "5085e3808c9d64ccec7dd5c68b91818a",
     "packages": [
         {
             "name": "anolilab/wordpress-salt-generator",
@@ -892,16 +892,16 @@
             "time": "2016-03-05 16:57:07"
         },
         {
-            "name": "salaros/wordpress-template-theme",
-            "version": "0.2.2",
+            "name": "salaros/mr-press-theme",
+            "version": "0.2.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/salaros/wordpress-template-theme.git",
+                "url": "https://github.com/salaros/mr-press-theme.git",
                 "reference": "37744de7f9d4e3e7b8f187bb1e6f8cb02d903faf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/salaros/wordpress-template-theme/zipball/37744de7f9d4e3e7b8f187bb1e6f8cb02d903faf",
+                "url": "https://api.github.com/repos/salaros/mr-press-theme/zipball/37744de7f9d4e3e7b8f187bb1e6f8cb02d903faf",
                 "reference": "37744de7f9d4e3e7b8f187bb1e6f8cb02d903faf",
                 "shasum": ""
             },
@@ -1598,8 +1598,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.5 | 7.0",
-        "ext-mysql": "*"
+        "php": ">=5.5"
     },
     "platform-dev": []
 }
