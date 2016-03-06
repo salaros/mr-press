@@ -6,10 +6,10 @@
     ],
     "type"          : "project",
     "license"       : "MIT",
-    "homepage"      : "https://github.com/salaros/mr-press-composer",
+    "homepage"      : "https://github.com/salaros/mr-press",
     "support": {
-        "issues"        : "https://github.com/salaros/mr-press-composer/issues",
-        "source"        : "https://github.com/salaros/mr-press-composer"
+        "issues"        : "https://github.com/salaros/mr-press/issues",
+        "source"        : "https://github.com/salaros/mr-press"
     },
     "authors"       : [
         {
