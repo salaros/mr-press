@@ -17,6 +17,13 @@ if ( file_exists( $dotenv_file ) ) {
 define( 'WP_HOME',              getenv( 'WP_HOME' ) );
 define( 'WP_SITEURL',           getenv( 'WP_SITEURL' ) );
 
+// ** Primary language ** //
+define( 'WPLANG',                getenv( 'WPLANG' ) );
+$locale = WPLANG;
+
+// ** If true, includes the wp-content/advanced-cache.php script ** //
+define( 'WP_CACHE',             getenv( 'WP_CACHE' ) );
+
 // ** MariaDB / MySQL server settings ** //
 define( 'DB_HOST',              getenv( 'DB_HOST' ) ?: 'localhost' );
 define( 'DB_NAME',              getenv( 'DB_NAME' ) );
