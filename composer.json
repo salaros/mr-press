@@ -34,7 +34,7 @@
         "fxp/composer-asset-plugin"                 : "*",
         "wpackagist-plugin/timber-library"          : "*",
         "wpackagist-plugin/advanced-custom-fields"  : "*",
-        "salaros/mr-press-theme"                    : "*",
+        "salaros/mr-press-child-theme"              : "*",
         "salaros/mr-press-composer"                 : "*"
     },
     "extra": {

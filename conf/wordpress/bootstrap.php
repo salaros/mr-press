@@ -45,7 +45,7 @@ define( 'LOGGED_IN_SALT',       getenv( 'LOGGED_IN_SALT' ) );
 define( 'NONCE_SALT',           getenv( 'NONCE_SALT' ) );
 
 // ** Defines a default theme for new sites, also used as fallback for a broken theme. ** //
-define( 'WP_DEFAULT_THEME',     getenv( 'WP_DEFAULT_THEME' ) ?: 'wordpress-template-theme' );
+define( 'WP_DEFAULT_THEME',     getenv( 'WP_DEFAULT_THEME' ) ?: 'wordpress-template-child-theme' );
 
 // ** Performance tweaks ** //
 define('WP_MEMORY_LIMIT',       getenv( 'WP_MEMORY_LIMIT' ) );
