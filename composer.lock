@@ -845,16 +845,16 @@
         },
         {
             "name": "salaros/mr-press-child-theme",
-            "version": "0.1.2",
+            "version": "0.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/salaros/mr-press-child-theme.git",
-                "reference": "11fcc9e870d3cc738accdbec2b5ee20c5d7d0b7a"
+                "reference": "41139f1a55614593a04d5afad6fc044eab0bdc8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/salaros/mr-press-child-theme/zipball/11fcc9e870d3cc738accdbec2b5ee20c5d7d0b7a",
-                "reference": "11fcc9e870d3cc738accdbec2b5ee20c5d7d0b7a",
+                "url": "https://api.github.com/repos/salaros/mr-press-child-theme/zipball/41139f1a55614593a04d5afad6fc044eab0bdc8a",
+                "reference": "41139f1a55614593a04d5afad6fc044eab0bdc8a",
                 "shasum": ""
             },
             "require": {
@@ -870,6 +870,14 @@
                 "asset-installer-paths": {
                     "npm-asset-library": "../../npm-asset",
                     "bower-asset-library": "../../bower-asset"
+                },
+                "installer-paths": {
+                    "../../plugins/{$name}/": [
+                        "type:wordpress-plugin"
+                    ],
+                    "../../themes/{$name}/": [
+                        "type:wordpress-theme"
+                    ]
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -885,7 +893,7 @@
                 }
             ],
             "description": "A child theme of Mr. Press default theme, it's a starting point for your projects",
-            "time": "2016-03-22 14:49:16"
+            "time": "2016-03-22 16:05:11"
         },
         {
             "name": "salaros/mr-press-composer",
@@ -937,19 +945,30 @@
         },
         {
             "name": "salaros/mr-press-theme",
-            "version": "0.4.0",
+            "version": "0.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/salaros/mr-press-theme.git",
-                "reference": "0e1900c9caf063f4ce7c141a15cacfdcc79c1757"
+                "reference": "acce3b674ccaa4e676464eccae0dfefb6a3d66ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/salaros/mr-press-theme/zipball/0e1900c9caf063f4ce7c141a15cacfdcc79c1757",
-                "reference": "0e1900c9caf063f4ce7c141a15cacfdcc79c1757",
+                "url": "https://api.github.com/repos/salaros/mr-press-theme/zipball/acce3b674ccaa4e676464eccae0dfefb6a3d66ce",
+                "reference": "acce3b674ccaa4e676464eccae0dfefb6a3d66ce",
                 "shasum": ""
             },
+            "require": {
+                "wpackagist-plugin/advanced-custom-fields": "*",
+                "wpackagist-plugin/timber-library": "*"
+            },
             "type": "wordpress-theme",
+            "extra": {
+                "installer-paths": {
+                    "../../plugins/{$name}/": [
+                        "type:wordpress-plugin"
+                    ]
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Salaros\\Wordpress\\Template\\": "classes/"
@@ -973,7 +992,7 @@
                 }
             ],
             "description": "Makes part of Mr. Press project. You should not change its code, please use 'mr-press-theme-child' instead",
-            "time": "2016-03-21 20:56:27"
+            "time": "2016-03-22 16:08:06"
         },
         {
             "name": "symfony/config",
