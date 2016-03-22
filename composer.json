@@ -27,11 +27,11 @@
     ],
     "require": {
         "php"                                       : ">=5.5",
+        "fxp/composer-asset-plugin"                 : "~1.0",
         "wp-cli/wp-cli"                             : "~0.20",
         "johnpbloch/wordpress"                      : "*",
         "anolilab/wordpress-salt-generator"         : "*",
         "vlucas/phpdotenv"                          : "*",
-        "fxp/composer-asset-plugin"                 : "*",
         "wpackagist-plugin/timber-library"          : "*",
         "wpackagist-plugin/advanced-custom-fields"  : "*",
         "salaros/mr-press-child-theme"              : "*",
