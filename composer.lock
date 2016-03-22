@@ -945,16 +945,16 @@
         },
         {
             "name": "salaros/mr-press-theme",
-            "version": "0.4.1",
+            "version": "0.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/salaros/mr-press-theme.git",
-                "reference": "acce3b674ccaa4e676464eccae0dfefb6a3d66ce"
+                "reference": "b4ccec1ade6cd9e24a0fde8aaf19773bdf994a3f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/salaros/mr-press-theme/zipball/acce3b674ccaa4e676464eccae0dfefb6a3d66ce",
-                "reference": "acce3b674ccaa4e676464eccae0dfefb6a3d66ce",
+                "url": "https://api.github.com/repos/salaros/mr-press-theme/zipball/b4ccec1ade6cd9e24a0fde8aaf19773bdf994a3f",
+                "reference": "b4ccec1ade6cd9e24a0fde8aaf19773bdf994a3f",
                 "shasum": ""
             },
             "require": {
@@ -992,7 +992,7 @@
                 }
             ],
             "description": "Makes part of Mr. Press project. You should not change its code, please use 'mr-press-theme-child' instead",
-            "time": "2016-03-22 16:08:06"
+            "time": "2016-03-22 17:12:59"
         },
         {
             "name": "symfony/config",
