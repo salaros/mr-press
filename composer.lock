@@ -845,16 +845,16 @@
         },
         {
             "name": "salaros/mr-press-child-theme",
-            "version": "0.1.4",
+            "version": "0.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/salaros/mr-press-child-theme.git",
-                "reference": "41139f1a55614593a04d5afad6fc044eab0bdc8a"
+                "reference": "d18e68049d0b734cf95e4e45a7860750611f79fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/salaros/mr-press-child-theme/zipball/41139f1a55614593a04d5afad6fc044eab0bdc8a",
-                "reference": "41139f1a55614593a04d5afad6fc044eab0bdc8a",
+                "url": "https://api.github.com/repos/salaros/mr-press-child-theme/zipball/d18e68049d0b734cf95e4e45a7860750611f79fc",
+                "reference": "d18e68049d0b734cf95e4e45a7860750611f79fc",
                 "shasum": ""
             },
             "require": {
@@ -893,7 +893,7 @@
                 }
             ],
             "description": "A child theme of Mr. Press default theme, it's a starting point for your projects",
-            "time": "2016-03-22 16:05:11"
+            "time": "2016-03-23 19:36:40"
         },
         {
             "name": "salaros/mr-press-composer",
@@ -945,20 +945,21 @@
         },
         {
             "name": "salaros/mr-press-theme",
-            "version": "0.4.2",
+            "version": "0.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/salaros/mr-press-theme.git",
-                "reference": "b4ccec1ade6cd9e24a0fde8aaf19773bdf994a3f"
+                "reference": "7a2f7305bfd04ed43a54d5ca40278c1d1327aff2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/salaros/mr-press-theme/zipball/b4ccec1ade6cd9e24a0fde8aaf19773bdf994a3f",
-                "reference": "b4ccec1ade6cd9e24a0fde8aaf19773bdf994a3f",
+                "url": "https://api.github.com/repos/salaros/mr-press-theme/zipball/7a2f7305bfd04ed43a54d5ca40278c1d1327aff2",
+                "reference": "7a2f7305bfd04ed43a54d5ca40278c1d1327aff2",
                 "shasum": ""
             },
             "require": {
                 "wpackagist-plugin/advanced-custom-fields": "*",
+                "wpackagist-plugin/theme-my-login": "*",
                 "wpackagist-plugin/timber-library": "*"
             },
             "type": "wordpress-theme",
@@ -992,7 +993,7 @@
                 }
             ],
             "description": "Makes part of Mr. Press project. You should not change its code, please use 'mr-press-theme-child' instead",
-            "time": "2016-03-22 17:12:59"
+            "time": "2016-03-23 18:00:57"
         },
         {
             "name": "symfony/config",
@@ -1622,6 +1623,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
+        },
+        {
+            "name": "wpackagist-plugin/theme-my-login",
+            "version": "6.4.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/theme-my-login/",
+                "reference": "tags/6.4.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/theme-my-login.6.4.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/theme-my-login/"
         },
         {
             "name": "wpackagist-plugin/timber-library",
