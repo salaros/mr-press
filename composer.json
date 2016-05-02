@@ -68,6 +68,7 @@
     "minimum-stability"                     : "stable",
     "prefer-stable"                         : true,
     "config": {
-        "generate-salts"                    : true
+        "generate-salts"                    : true,
+        "secure-http"                       : false
     }
 }
