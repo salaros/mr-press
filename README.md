@@ -1,6 +1,7 @@
 # Mr. Press
 
 [![Gitter](https://badges.gitter.im/Mr-Press/Lobby.svg)](https://gitter.im/Mr-Press/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=body_badge)
+[![Dependency Status](https://www.versioneye.com/user/projects/57bfee1d69d9490042f72c31/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/57bfee1d69d9490042f72c31)
 
 **Mr. Press** is a [WordPress](https://wordpress.org/) development stack similar to [Bedrock](https://github.com/roots/bedrock).
 Project's main goal is to improve the overall security, portability and deployment process of WordPress, while trying to use the best web development practices.
