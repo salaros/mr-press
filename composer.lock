@@ -80,7 +80,7 @@
                 "shasum": ""
             },
             "require": {
-                "bower-asset/jquery": ">=1.9.1,<=3"
+                "bower-asset/jquery": ">=1.9.1,<4.0"
             },
             "type": "bower-asset-library",
             "extra": {
@@ -145,16 +145,16 @@
         },
         {
             "name": "bower-asset/jquery",
-            "version": "3.0.0",
+            "version": "3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jquery/jquery-dist.git",
-                "reference": "0078f86be166a8747819d5d1516776a662cb69df"
+                "reference": "1b30f3ad466ebf2714d47eda34dbd7fdf6849fe3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jquery/jquery-dist/zipball/0078f86be166a8747819d5d1516776a662cb69df",
-                "reference": "0078f86be166a8747819d5d1516776a662cb69df",
+                "url": "https://api.github.com/repos/jquery/jquery-dist/zipball/1b30f3ad466ebf2714d47eda34dbd7fdf6849fe3",
+                "reference": "1b30f3ad466ebf2714d47eda34dbd7fdf6849fe3",
                 "shasum": ""
             },
             "type": "bower-asset-library",
@@ -1177,16 +1177,16 @@
         },
         {
             "name": "salaros/mr-press-child-theme",
-            "version": "0.1.7",
+            "version": "0.1.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/salaros/mr-press-child-theme.git",
-                "reference": "1fb74a5c3a5f967e9238b0724ca9d8b3a93b1378"
+                "reference": "a1a356197fe4ff0a329607b70139fde83633f952"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/salaros/mr-press-child-theme/zipball/1fb74a5c3a5f967e9238b0724ca9d8b3a93b1378",
-                "reference": "1fb74a5c3a5f967e9238b0724ca9d8b3a93b1378",
+                "url": "https://api.github.com/repos/salaros/mr-press-child-theme/zipball/a1a356197fe4ff0a329607b70139fde83633f952",
+                "reference": "a1a356197fe4ff0a329607b70139fde83633f952",
                 "shasum": ""
             },
             "require": {
@@ -1225,7 +1225,7 @@
                 }
             ],
             "description": "A child theme of Mr. Press default theme, it's a starting point for your projects",
-            "time": "2016-12-04 08:43:50"
+            "time": "2016-12-04 09:17:58"
         },
         {
             "name": "salaros/mr-press-composer",
