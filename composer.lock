@@ -224,6 +224,45 @@
             "description": "Fast and lightweight polyfill for min/max-width CSS3 Media Queries (for IE 6-8, and more)"
         },
         {
+            "name": "bower-asset/semantic",
+            "version": "2.2.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Semantic-Org/Semantic-UI.git",
+                "reference": "6389e62e204e1e6a792cdbb29cd23b65112947c1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Semantic-Org/Semantic-UI/zipball/6389e62e204e1e6a792cdbb29cd23b65112947c1",
+                "reference": "6389e62e204e1e6a792cdbb29cd23b65112947c1",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/jquery": ">=1.8"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "src/semantic.less",
+                    "dist/semantic.js"
+                ],
+                "bower-asset-ignore": [
+                    "src/site",
+                    "test"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Semantic empowers designers and developers by creating a shared vocabulary for UI.",
+            "keywords": [
+                "css3",
+                "framework",
+                "semantic",
+                "ui"
+            ]
+        },
+        {
             "name": "composer/ca-bundle",
             "version": "1.0.6",
             "source": {
@@ -1176,16 +1215,16 @@
         },
         {
             "name": "salaros/mr-press-child-theme",
-            "version": "0.1.10",
+            "version": "0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/salaros/mr-press-child-theme.git",
-                "reference": "3ebc74b7e2a41e1fdfecc1bb53ae21a4636de37c"
+                "reference": "d00e464991bd0c7350a38387a421f9cd3a480381"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/salaros/mr-press-child-theme/zipball/3ebc74b7e2a41e1fdfecc1bb53ae21a4636de37c",
-                "reference": "3ebc74b7e2a41e1fdfecc1bb53ae21a4636de37c",
+                "url": "https://api.github.com/repos/salaros/mr-press-child-theme/zipball/d00e464991bd0c7350a38387a421f9cd3a480381",
+                "reference": "d00e464991bd0c7350a38387a421f9cd3a480381",
                 "shasum": ""
             },
             "require": {
@@ -1193,8 +1232,10 @@
                 "bower-asset/html5shiv": "~3.7.0",
                 "bower-asset/normalize.css": "~3.0.0",
                 "bower-asset/respond": "~1.4.0",
+                "bower-asset/semantic": "~2.2.0",
                 "fxp/composer-asset-plugin": "~1.2.0",
-                "salaros/mr-press-theme": "*"
+                "salaros/mr-press-theme": "*",
+                "wpackagist-plugin/wp-postviews": "*"
             },
             "type": "wordpress-theme",
             "extra": {
@@ -1224,7 +1265,7 @@
                 }
             ],
             "description": "A child theme of Mr. Press default theme, it's a starting point for your projects",
-            "time": "2017-02-26T16:06:22+00:00"
+            "time": "2017-02-26T22:47:34+00:00"
         },
         {
             "name": "salaros/mr-press-composer",
@@ -1276,16 +1317,16 @@
         },
         {
             "name": "salaros/mr-press-theme",
-            "version": "0.4.9",
+            "version": "0.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/salaros/mr-press-theme.git",
-                "reference": "c3bcdf167f959378ffac10de92dd410f1bd75faa"
+                "reference": "00f182dce000823d804f7892f9fe386cfc0213ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/salaros/mr-press-theme/zipball/c3bcdf167f959378ffac10de92dd410f1bd75faa",
-                "reference": "c3bcdf167f959378ffac10de92dd410f1bd75faa",
+                "url": "https://api.github.com/repos/salaros/mr-press-theme/zipball/00f182dce000823d804f7892f9fe386cfc0213ff",
+                "reference": "00f182dce000823d804f7892f9fe386cfc0213ff",
                 "shasum": ""
             },
             "require": {
@@ -1324,7 +1365,7 @@
                 }
             ],
             "description": "Makes part of Mr. Press project. You should not change its code, please use 'mr-press-theme-child' instead",
-            "time": "2016-12-04T14:47:37+00:00"
+            "time": "2017-02-26T22:26:04+00:00"
         },
         {
             "name": "seld/cli-prompt",
@@ -2306,6 +2347,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/timber-library/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-postviews",
+            "version": "1.74",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-postviews/",
+                "reference": "tags/1.74"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-postviews.1.74.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-postviews/"
         }
     ],
     "packages-dev": [],
