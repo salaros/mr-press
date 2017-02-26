@@ -1,0 +1,21 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "phpcs.standard": "WordPress-Extra",
+    "files.exclude": {
+        "**/*.bak*": true,
+        "**/vendor": true,
+        "**/public": true,
+        "**/wp-admin": true,
+        "**/wp-includes": true,
+        "**/wp-content/themes/index.php": true,
+        "**/wp-content/plugins": true,
+        "**/wp-content/uploads": true,
+        "**/wp-content/cache": true,
+        "**/wp-content/languages": true,
+        "**/wp-content/upgrade": true,
+        "**/wp-content/backupwordpress-*": true,
+        "**/wp-content/index.php": true,
+        "**/wp-content/debug.log": true,
+        "**/wp-snapshots": true,
+    }
+}
