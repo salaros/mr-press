@@ -28,7 +28,7 @@
     "require": {
         "php"                                       : ">=5.5",
         "fxp/composer-asset-plugin"                 : "~1.0",
-        "wp-cli/wp-cli"                             : "~0.20",
+        "wp-cli/wp-cli"                             : "~1.0",
         "johnpbloch/wordpress"                      : "~4.7.0",
         "anolilab/wordpress-salt-generator"         : "^1.2",
         "vlucas/phpdotenv"                          : "^2.2",

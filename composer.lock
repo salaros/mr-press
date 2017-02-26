@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "502a2f328ebe13d8f5f2f7f9353eabf6",
+    "content-hash": "babb716fc159ebb0a007b9c03bcd8526",
     "packages": [
         {
             "name": "anolilab/wordpress-salt-generator",
@@ -1228,22 +1228,22 @@
         },
         {
             "name": "salaros/mr-press-composer",
-            "version": "0.3.1",
+            "version": "0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/salaros/mr-press-composer.git",
-                "reference": "b105d32b915e9eb0688c43f03bf0efa4f479b4ec"
+                "reference": "1ab802dfc747afc54de35a4e72643533b04a8267"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/salaros/mr-press-composer/zipball/b105d32b915e9eb0688c43f03bf0efa4f479b4ec",
-                "reference": "b105d32b915e9eb0688c43f03bf0efa4f479b4ec",
+                "url": "https://api.github.com/repos/salaros/mr-press-composer/zipball/1ab802dfc747afc54de35a4e72643533b04a8267",
+                "reference": "1ab802dfc747afc54de35a4e72643533b04a8267",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.5.0",
                 "vlucas/phpdotenv": "*",
-                "wp-cli/wp-cli": "~0.20"
+                "wp-cli/wp-cli": "~1.0"
             },
             "type": "library",
             "autoload": {
@@ -1272,7 +1272,7 @@
                 "script",
                 "wordpress"
             ],
-            "time": "2016-03-06T08:51:06+00:00"
+            "time": "2017-02-26T15:28:44+00:00"
         },
         {
             "name": "salaros/mr-press-theme",
@@ -2182,20 +2182,20 @@
         },
         {
             "name": "wp-cli/wp-cli",
-            "version": "v0.25.0",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/wp-cli.git",
-                "reference": "248b18b512491fe479affdbdfc24f6ee77a8fc57"
+                "reference": "5a28b49f7e725c74f747620fb5b1d6060953abf1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/wp-cli/zipball/248b18b512491fe479affdbdfc24f6ee77a8fc57",
-                "reference": "248b18b512491fe479affdbdfc24f6ee77a8fc57",
+                "url": "https://api.github.com/repos/wp-cli/wp-cli/zipball/5a28b49f7e725c74f747620fb5b1d6060953abf1",
+                "reference": "5a28b49f7e725c74f747620fb5b1d6060953abf1",
                 "shasum": ""
             },
             "require": {
-                "composer/composer": "^1.0.0",
+                "composer/composer": "^1.2.0",
                 "composer/semver": "~1.0",
                 "mustache/mustache": "~2.4",
                 "mustangostang/spyc": "~0.5",
@@ -2245,7 +2245,7 @@
                 "cli",
                 "wordpress"
             ],
-            "time": "2016-10-25T15:14:00+00:00"
+            "time": "2017-02-01T14:20:12+00:00"
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",
