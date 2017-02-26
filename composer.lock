@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "babb716fc159ebb0a007b9c03bcd8526",
+    "content-hash": "5e7476dd3afa2313f8099d5c489e6f9d",
     "packages": [
         {
             "name": "anolilab/wordpress-salt-generator",
@@ -590,16 +590,16 @@
         },
         {
             "name": "fxp/composer-asset-plugin",
-            "version": "v1.1.4",
+            "version": "v1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fxpio/composer-asset-plugin.git",
-                "reference": "c3d803cc890fad5a7fb61a4036c5d973faae34af"
+                "reference": "60bc94db574103dfc73acb907fa79c6dfc86c96e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fxpio/composer-asset-plugin/zipball/c3d803cc890fad5a7fb61a4036c5d973faae34af",
-                "reference": "c3d803cc890fad5a7fb61a4036c5d973faae34af",
+                "url": "https://api.github.com/repos/fxpio/composer-asset-plugin/zipball/60bc94db574103dfc73acb907fa79c6dfc86c96e",
+                "reference": "60bc94db574103dfc73acb907fa79c6dfc86c96e",
                 "shasum": ""
             },
             "require": {
@@ -613,7 +613,7 @@
             "extra": {
                 "class": "Fxp\\Composer\\AssetPlugin\\FxpAssetPlugin",
                 "branch-alias": {
-                    "dev-master": "1.1-dev"
+                    "dev-master": "1.2-dev"
                 }
             },
             "autoload": {
@@ -632,7 +632,7 @@
                 }
             ],
             "description": "NPM/Bower Dependency Manager for Composer",
-            "homepage": "https://github.com/francoispluchino/composer-asset-plugin",
+            "homepage": "https://github.com/fxpio/composer-asset-plugin",
             "keywords": [
                 "asset",
                 "bower",
@@ -642,7 +642,7 @@
                 "npm",
                 "package"
             ],
-            "time": "2016-04-22T08:48:58+00:00"
+            "time": "2016-10-12T08:03:45+00:00"
         },
         {
             "name": "ircmaxell/random-lib",
@@ -1176,16 +1176,16 @@
         },
         {
             "name": "salaros/mr-press-child-theme",
-            "version": "0.1.9",
+            "version": "0.1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/salaros/mr-press-child-theme.git",
-                "reference": "75dfcb54ce773ecb10582091f2aa41b63004a8b1"
+                "reference": "3ebc74b7e2a41e1fdfecc1bb53ae21a4636de37c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/salaros/mr-press-child-theme/zipball/75dfcb54ce773ecb10582091f2aa41b63004a8b1",
-                "reference": "75dfcb54ce773ecb10582091f2aa41b63004a8b1",
+                "url": "https://api.github.com/repos/salaros/mr-press-child-theme/zipball/3ebc74b7e2a41e1fdfecc1bb53ae21a4636de37c",
+                "reference": "3ebc74b7e2a41e1fdfecc1bb53ae21a4636de37c",
                 "shasum": ""
             },
             "require": {
@@ -1193,7 +1193,7 @@
                 "bower-asset/html5shiv": "~3.7.0",
                 "bower-asset/normalize.css": "~3.0.0",
                 "bower-asset/respond": "~1.4.0",
-                "fxp/composer-asset-plugin": "~1.1.0",
+                "fxp/composer-asset-plugin": "~1.2.0",
                 "salaros/mr-press-theme": "*"
             },
             "type": "wordpress-theme",
@@ -1224,7 +1224,7 @@
                 }
             ],
             "description": "A child theme of Mr. Press default theme, it's a starting point for your projects",
-            "time": "2016-12-04T14:47:18+00:00"
+            "time": "2017-02-26T16:06:22+00:00"
         },
         {
             "name": "salaros/mr-press-composer",
