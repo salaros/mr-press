@@ -1215,16 +1215,16 @@
         },
         {
             "name": "salaros/mr-press-child-theme",
-            "version": "0.2.0",
+            "version": "0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/salaros/mr-press-child-theme.git",
-                "reference": "d00e464991bd0c7350a38387a421f9cd3a480381"
+                "reference": "fd250747511e8fcd5226a55671e33d44572e8e64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/salaros/mr-press-child-theme/zipball/d00e464991bd0c7350a38387a421f9cd3a480381",
-                "reference": "d00e464991bd0c7350a38387a421f9cd3a480381",
+                "url": "https://api.github.com/repos/salaros/mr-press-child-theme/zipball/fd250747511e8fcd5226a55671e33d44572e8e64",
+                "reference": "fd250747511e8fcd5226a55671e33d44572e8e64",
                 "shasum": ""
             },
             "require": {
@@ -1265,7 +1265,7 @@
                 }
             ],
             "description": "A child theme of Mr. Press default theme, it's a starting point for your projects",
-            "time": "2017-02-26T22:47:34+00:00"
+            "time": "2017-03-01T18:16:29+00:00"
         },
         {
             "name": "salaros/mr-press-composer",
@@ -1317,16 +1317,16 @@
         },
         {
             "name": "salaros/mr-press-theme",
-            "version": "0.5.0",
+            "version": "0.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/salaros/mr-press-theme.git",
-                "reference": "00f182dce000823d804f7892f9fe386cfc0213ff"
+                "reference": "a7a43145b1fdd145861f7915cb2542fa43571ad9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/salaros/mr-press-theme/zipball/00f182dce000823d804f7892f9fe386cfc0213ff",
-                "reference": "00f182dce000823d804f7892f9fe386cfc0213ff",
+                "url": "https://api.github.com/repos/salaros/mr-press-theme/zipball/a7a43145b1fdd145861f7915cb2542fa43571ad9",
+                "reference": "a7a43145b1fdd145861f7915cb2542fa43571ad9",
                 "shasum": ""
             },
             "require": {
@@ -1365,7 +1365,7 @@
                 }
             ],
             "description": "Makes part of Mr. Press project. You should not change its code, please use 'mr-press-theme-child' instead",
-            "time": "2017-02-26T22:26:04+00:00"
+            "time": "2017-02-28T20:22:09+00:00"
         },
         {
             "name": "seld/cli-prompt",
