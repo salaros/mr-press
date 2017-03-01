@@ -67,6 +67,11 @@
     "prefer-stable"                         : true,
     "config": {
         "generate-salts"                    : true,
-        "secure-http"                       : false
+        "secure-http"                       : false,
+        "preferred-install" : {
+            "salaros/mr-press-theme"        : "source",
+            "salaros/mr-press-child-theme"  : "source",
+            "*"                             : "dist"
+        }
     }
 }
