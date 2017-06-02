@@ -4,6 +4,11 @@ global $locale;
 
 $root_dir = dirname( dirname( __DIR__ ) );
 
+// Use root_dir to define ABSPATH if it has not been defined yet
+if ( ! defined( 'ABSPATH' ) ) {
+	define( 'ABSPATH', sprintf( '%s/public', $root_dir ) );
+}
+
 $dotenv = new Dotenv\Dotenv( $root_dir );
 $dotenv->load();
 $dotenv->required( ['DB_NAME', 'DB_USER', 'DB_PASSWORD', 'WP_HOME', 'WP_SITEURL'] )->notEmpty();
