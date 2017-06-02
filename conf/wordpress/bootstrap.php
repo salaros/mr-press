@@ -9,6 +9,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', sprintf( '%s/public', $root_dir ) );
 }
 
+// Load .env file and require DB and URL-related settings to be set
+$dotenv = sprintf( '%s/.env', $root_dir );
+if ( ! file_exists( $dotenv ) ) {
+	die( sprintf( 'Please make sure you have created "%s" file containing WordPress settings', $dotenv ) );
+}
 $dotenv = new Dotenv\Dotenv( $root_dir );
 $dotenv->load();
 $dotenv->required( ['DB_NAME', 'DB_USER', 'DB_PASSWORD', 'WP_HOME', 'WP_SITEURL'] )->notEmpty();
