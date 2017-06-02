@@ -18,6 +18,16 @@ $dotenv = new Dotenv\Dotenv( $root_dir );
 $dotenv->load();
 $dotenv->required( ['DB_NAME', 'DB_USER', 'DB_PASSWORD', 'WP_HOME', 'WP_SITEURL'] )->notEmpty();
 
+// ** Authentication Unique Keys and Salts ** //
+define( 'AUTH_KEY',             getenv( 'AUTH_KEY' ) );
+define( 'SECURE_AUTH_KEY',      getenv( 'SECURE_AUTH_KEY' ) );
+define( 'LOGGED_IN_KEY',        getenv( 'LOGGED_IN_KEY' ) );
+define( 'NONCE_KEY',            getenv( 'NONCE_KEY' ) );
+define( 'AUTH_SALT',            getenv( 'AUTH_SALT' ) );
+define( 'SECURE_AUTH_SALT',     getenv( 'SECURE_AUTH_SALT' ) );
+define( 'LOGGED_IN_SALT',       getenv( 'LOGGED_IN_SALT' ) );
+define( 'NONCE_SALT',           getenv( 'NONCE_SALT' ) );
+
 // ** Load additional settings & tweaks conditionnaly, using current WordPress environment ** //
 define( 'WP_ENV',               getenv( 'WP_ENV' ) ?: 'development' );
 $dotenv_file = sprintf( '%s/environments/%s.php', __DIR__, WP_ENV );
@@ -50,16 +60,6 @@ define( 'DB_CHARSET',           getenv( 'DB_CHARSET' ) ?: 'utf8mb4' );
 define( 'DB_COLLATE',           '' );
 
 $table_prefix = getenv( 'DB_PREFIX' ) ?: 'wp_';
-
-// ** Authentication Unique Keys and Salts ** //
-define( 'AUTH_KEY',             getenv( 'AUTH_KEY' ) );
-define( 'SECURE_AUTH_KEY',      getenv( 'SECURE_AUTH_KEY' ) );
-define( 'LOGGED_IN_KEY',        getenv( 'LOGGED_IN_KEY' ) );
-define( 'NONCE_KEY',            getenv( 'NONCE_KEY' ) );
-define( 'AUTH_SALT',            getenv( 'AUTH_SALT' ) );
-define( 'SECURE_AUTH_SALT',     getenv( 'SECURE_AUTH_SALT' ) );
-define( 'LOGGED_IN_SALT',       getenv( 'LOGGED_IN_SALT' ) );
-define( 'NONCE_SALT',           getenv( 'NONCE_SALT' ) );
 
 // ** Defines a default theme for new sites, also used as fallback for a broken theme. ** //
 define( 'WP_DEFAULT_THEME',     getenv( 'WP_DEFAULT_THEME' ) ?: 'mr-press-child-theme' );
