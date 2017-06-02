@@ -4,12 +4,12 @@ global $locale;
 
 $root_dir = dirname( dirname( __DIR__ ) );
 
-// Use root_dir to define ABSPATH if it has not been defined yet
+// ** Use root_dir to define ABSPATH if it has not been defined yet ** //
 if ( ! defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', sprintf( '%s/public', $root_dir ) );
 }
 
-// Load .env file and require DB and URL-related settings to be set
+// ** Load .env file and require DB and URL-related settings to be set ** //
 $dotenv = sprintf( '%s/.env', $root_dir );
 if ( ! file_exists( $dotenv ) ) {
 	die( sprintf( 'Please make sure you have created "%s" file containing WordPress settings', $dotenv ) );
