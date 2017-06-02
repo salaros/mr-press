@@ -2,6 +2,11 @@
 
 global $locale;
 
+// ** Set verbose error reporting, which then can be overriden **//
+// ** by the environment-specific file ** //
+ini_set( 'error_reporting', -1 );
+ini_set( 'display_errors', 1 );
+
 $root_dir = dirname( dirname( __DIR__ ) );
 
 // ** Use root_dir to define ABSPATH if it has not been defined yet ** //
@@ -16,7 +21,7 @@ if ( ! file_exists( $dotenv ) ) {
 }
 $dotenv = new Dotenv\Dotenv( $root_dir );
 $dotenv->load();
-$dotenv->required( ['DB_NAME', 'DB_USER', 'DB_PASSWORD', 'WP_HOME', 'WP_SITEURL'] )->notEmpty();
+$dotenv->required( [ 'DB_NAME', 'DB_USER', 'DB_PASSWORD', 'WP_HOME', 'WP_SITEURL' ] )->notEmpty();
 
 // ** Authentication Unique Keys and Salts ** //
 define( 'AUTH_KEY',             getenv( 'AUTH_KEY' ) );
@@ -32,7 +37,7 @@ define( 'NONCE_SALT',           getenv( 'NONCE_SALT' ) );
 define( 'WP_ENV',               getenv( 'WP_ENV' ) ?: 'development' );
 $dotenv_file = sprintf( '%s/environments/%s.php', __DIR__, WP_ENV );
 if ( file_exists( $dotenv_file ) ) {
-    require_once $dotenv_file;
+	require_once $dotenv_file;
 }
 
 // ** URLs ** //
@@ -40,7 +45,6 @@ define( 'WP_HOME',              getenv( 'WP_HOME' ) );
 define( 'WP_SITEURL',           getenv( 'WP_SITEURL' ) );
 
 // ** Primary language ** //
-
 if ( empty( getenv( 'WPLANG' ) ) ) {
 	define( 'WPLANG',                $locale );
 } else {
@@ -65,8 +69,8 @@ $table_prefix = getenv( 'DB_PREFIX' ) ?: 'wp_';
 define( 'WP_DEFAULT_THEME',     getenv( 'WP_DEFAULT_THEME' ) ?: 'mr-press-child-theme' );
 
 // ** Performance tweaks ** //
-define('WP_MEMORY_LIMIT',       getenv( 'WP_MEMORY_LIMIT' ) );
-define('WP_MAX_MEMORY_LIMIT',   getenv( 'WP_MAX_MEMORY_LIMIT' ) );
+define( 'WP_MEMORY_LIMIT',       getenv( 'WP_MEMORY_LIMIT' ) );
+define( 'WP_MAX_MEMORY_LIMIT',   getenv( 'WP_MAX_MEMORY_LIMIT' ) );
 
 /**
  * Disable WP_CRON unless running thtough WordPress cron job
@@ -80,4 +84,4 @@ define( 'WP_ALLOW_REPAIR',      getenv( 'WP_ALLOW_REPAIR' ) ?: false );
 define( 'AUTOMATIC_UPDATER_DISABLED', getenv( 'AUTOMATIC_UPDATER_DISABLED' ) ?: true );
 
 // ** Redefine default WordPress content (themes, plugins etc) folder location ** //
-define( 'WP_CONTENT_DIR',       sprintf('%s/%s', $root_dir, 'wp-content' ) );
+define( 'WP_CONTENT_DIR',       sprintf( '%s/%s', $root_dir, 'wp-content' ) );
