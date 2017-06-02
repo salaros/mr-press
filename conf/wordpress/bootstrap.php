@@ -1,5 +1,7 @@
 <?php
 
+global $locale;
+
 $root_dir = dirname( dirname( __DIR__ ) );
 
 $dotenv = new Dotenv\Dotenv( $root_dir );
@@ -18,8 +20,13 @@ define( 'WP_HOME',              getenv( 'WP_HOME' ) );
 define( 'WP_SITEURL',           getenv( 'WP_SITEURL' ) );
 
 // ** Primary language ** //
-define( 'WPLANG',                getenv( 'WPLANG' ) );
-$locale = WPLANG;
+
+if ( empty( getenv( 'WPLANG' ) ) ) {
+	define( 'WPLANG',                $locale );
+} else {
+	define( 'WPLANG',                getenv( 'WPLANG' ) );
+	$locale = WPLANG;
+}
 
 // ** If true, includes the wp-content/advanced-cache.php script ** //
 define( 'WP_CACHE',             getenv( 'WP_CACHE' ) );
