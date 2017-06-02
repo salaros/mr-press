@@ -55,7 +55,7 @@ define('WP_MAX_MEMORY_LIMIT',   getenv( 'WP_MAX_MEMORY_LIMIT' ) );
  * Disable WP_CRON unless running thtough WordPress cron job
  * For further details read this article: https://www.lucasrolff.com/wordpress/why-wp-cron-sucks
  */
-define( 'DISABLE_WP_CRON',      getenv( 'DISABLE_WP_CRON' ) ?: ( !isset($argv[1]) || $argv[1] !== 'DOING_CRON' ) );
+define( 'DISABLE_WP_CRON',      getenv( 'DISABLE_WP_CRON' ) ?: ( ! isset( $argv[1] ) || 'DOING_CRON' !== $argv[1] ) );
 
 // ** Additional settings ** //
 define( 'DISALLOW_FILE_EDIT',   getenv( 'DISALLOW_FILE_EDIT' ) ?: true );
