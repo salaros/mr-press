@@ -8,4 +8,5 @@
 /wp-content/uploads
 /wp-content/languages
 /conf/cron.d/wptpl-cron-job
+wp-content/debug\.log
 /.env
