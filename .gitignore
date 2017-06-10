@@ -10,3 +10,4 @@
 /conf/cron.d/wptpl-cron-job
 wp-content/debug\.log
 /.env
+/logs
