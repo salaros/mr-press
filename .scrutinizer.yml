@@ -1,3 +1,7 @@
+checks:
+    php:
+        code_rating: true
+        duplication: true
 tools:
     php_mess_detector:
         config:
