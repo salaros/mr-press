@@ -1,21 +1,30 @@
 // Place your settings in this file to overwrite default and user settings.
 {
-    "phpcs.standard": "WordPress-Extra",
+    // PHP Mess Detector settings
+	"phpmd.enabled": true,
+    "phpmd.validate.rulesetsFile": ".vscode/phpmd.xml",
+	"phpmd.validate.rulesets": "cleancode,codesize,controversial,design,naming,unusedcode",
+
+    // PHP CodeSniffer settings
+    "phpcs.enable": true,
+    "phpcs.standard": ".vscode/phpcs.xml",
+
+    // Exclude files from File Explorer
     "files.exclude": {
-        "**/*.bak*": true,
-        "**/vendor": true,
-        "**/public": true,
-        "**/wp-admin": true,
-        "**/wp-includes": true,
-        "**/wp-content/themes/index.php": true,
-        "**/wp-content/plugins": true,
-        "**/wp-content/uploads": true,
-        "**/wp-content/cache": true,
-        "**/wp-content/languages": true,
-        "**/wp-content/upgrade": true,
-        "**/wp-content/backupwordpress-*": true,
-        "**/wp-content/index.php": true,
-        "**/wp-content/debug.log": true,
-        "**/wp-snapshots": true,
+        "**/*.bak*": true, 
+        "**/vendor": true, 
+        "**/public": true, 
+        "**/wp-admin": true, 
+        "**/wp-includes": true, 
+        "**/wp-content/themes/index.php": true, 
+        "**/wp-content/plugins": true, 
+        "**/wp-content/uploads": true, 
+        "**/wp-content/cache": true, 
+        "**/wp-content/languages": true, 
+        "**/wp-content/upgrade": true, 
+        "**/wp-content/backupwordpress-*": true, 
+        "**/wp-content/index.php": true, 
+        "**/wp-content/debug.log": true, 
+        "**/wp-snapshots": true
     }
 }
