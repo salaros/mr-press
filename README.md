@@ -1,6 +1,7 @@
 # Mr. Press
 [![Latest Stable Version](https://poser.pugx.org/salaros/mr-press/v/stable)](https://packagist.org/packages/salaros/mr-press)
 [![Dependency Status](https://www.versioneye.com/user/projects/57bfee1d69d9490042f72c31/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/57bfee1d69d9490042f72c31)
+[![Packagist](https://img.shields.io/packagist/dt/salaros/mr-press.svg)](https://packagist.org/packages/salaros/mr-press/stats)
 [![License](https://poser.pugx.org/salaros/mr-press/license)](https://packagist.org/packages/salaros/mr-press)
 [![Gitter](https://badges.gitter.im/Mr-Press/Lobby.svg)](https://gitter.im/Mr-Press/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=body_badge)
 
