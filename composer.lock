@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "83575a99e0a571176dd963aefb365f67",
+    "content-hash": "80e9c387a7901fe08c3fa8a31fe566a8",
     "packages": [
         {
             "name": "anolilab/wordpress-salt-generator",
@@ -638,16 +638,16 @@
         },
         {
             "name": "fxp/composer-asset-plugin",
-            "version": "v1.2.2",
+            "version": "v1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fxpio/composer-asset-plugin.git",
-                "reference": "60bc94db574103dfc73acb907fa79c6dfc86c96e"
+                "reference": "0bfdd307d2cddbc42c634b14247f3f3a8525b836"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fxpio/composer-asset-plugin/zipball/60bc94db574103dfc73acb907fa79c6dfc86c96e",
-                "reference": "60bc94db574103dfc73acb907fa79c6dfc86c96e",
+                "url": "https://api.github.com/repos/fxpio/composer-asset-plugin/zipball/0bfdd307d2cddbc42c634b14247f3f3a8525b836",
+                "reference": "0bfdd307d2cddbc42c634b14247f3f3a8525b836",
                 "shasum": ""
             },
             "require": {
@@ -655,19 +655,22 @@
                 "php": ">=5.3.3"
             },
             "require-dev": {
-                "composer/composer": "^1.0.0"
+                "composer/composer": "^1.4.0"
             },
             "type": "composer-plugin",
             "extra": {
                 "class": "Fxp\\Composer\\AssetPlugin\\FxpAssetPlugin",
                 "branch-alias": {
-                    "dev-master": "1.2-dev"
+                    "dev-master": "1.3-dev"
                 }
             },
             "autoload": {
                 "psr-4": {
                     "Fxp\\Composer\\AssetPlugin\\": ""
-                }
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -690,7 +693,7 @@
                 "npm",
                 "package"
             ],
-            "time": "2016-10-12T08:03:45+00:00"
+            "time": "2017-04-09T11:49:10+00:00"
         },
         {
             "name": "ircmaxell/random-lib",
@@ -1264,16 +1267,16 @@
         },
         {
             "name": "salaros/mr-press-child-theme",
-            "version": "0.3.0",
+            "version": "0.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/salaros/mr-press-child-theme.git",
-                "reference": "3f26d3e206efab4fef0d1d027a8ee50b56ba1b2b"
+                "reference": "1c939213d0e350683ab086c64901ff5e0b60c690"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/salaros/mr-press-child-theme/zipball/3f26d3e206efab4fef0d1d027a8ee50b56ba1b2b",
-                "reference": "3f26d3e206efab4fef0d1d027a8ee50b56ba1b2b",
+                "url": "https://api.github.com/repos/salaros/mr-press-child-theme/zipball/1c939213d0e350683ab086c64901ff5e0b60c690",
+                "reference": "1c939213d0e350683ab086c64901ff5e0b60c690",
                 "shasum": ""
             },
             "require": {
@@ -1282,7 +1285,7 @@
                 "bower-asset/normalize.css": "~3.0.0",
                 "bower-asset/respond": "~1.4.0",
                 "bower-asset/semantic": "~2.2.0",
-                "fxp/composer-asset-plugin": "~1.2.0",
+                "fxp/composer-asset-plugin": "~1.3.0",
                 "salaros/mr-press-theme": "*",
                 "wpackagist-plugin/wp-postviews": "*"
             },
@@ -1314,7 +1317,7 @@
                 }
             ],
             "description": "A child theme of Mr. Press default theme, it's a starting point for your projects",
-            "time": "2017-06-25T22:18:56+00:00"
+            "time": "2017-06-25T22:54:58+00:00"
         },
         {
             "name": "salaros/mr-press-composer",
