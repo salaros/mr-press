@@ -16,3 +16,7 @@ define( 'WP_DEBUG_DISPLAY',         $debug_mode > 0 || getenv( 'WP_DEBUG_DISPLAY
 define( 'WP_DEBUG_LOG',             $debug_mode < 1 || getenv( 'WP_DEBUG_LOG' ) );
 define( 'SAVEQUERIES',              3 === $debug_mode || getenv( 'SAVEQUERIES' ) );
 define( 'SCRIPT_DEBUG',             2 === $debug_mode || getenv( 'SCRIPT_DEBUG' ) );
+
+define( 'FS_CHMOD_DIR', (0775 & ~ umask() ) );
+define( 'FS_CHMOD_FILE', (0664 & ~ umask() ) );
+define( 'FS_METHOD', 'direct' );
