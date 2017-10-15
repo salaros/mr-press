@@ -44,10 +44,6 @@
             "wp-content/themes/{$name}/"    : [
                 "type:wordpress-theme"
             ]
-        },
-        "asset-installer-paths": {
-            "npm-asset-library"             : "wp-content/npm-asset",
-            "bower-asset-library"           : "wp-content/bower-asset"
         }
     },
     "scripts": {
@@ -73,6 +69,12 @@
             "salaros/mr-press-theme"        : "source",
             "salaros/mr-press-child-theme"  : "source",
             "*"                             : "dist"
-        }
+        },
+        "fxp-asset": {
+            "asset-installer-paths": {
+                "npm-asset-library"         : "wp-content/npm-asset",
+                "bower-asset-library"       : "wp-content/bower-asset"
+            }
+        }        
     }
 }
