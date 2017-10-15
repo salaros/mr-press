@@ -57,13 +57,14 @@
         "initialize"                        : [
             "Salaros\\MrPress\\Composer\\Scripts::createDatabase",
             "Salaros\\MrPress\\Composer\\Scripts::createTables",
-            "Salaros\\MrPress\\Composer\\Scripts::activatePlugins"
+            "Salaros\\MrPress\\Composer\\Scripts::activatePlugins",
+            "Salaros\\MrPress\\Composer\\Scripts::createCronjob"
         ],
         "create-cron-job"                   : [
-            "bash scripts/create-cron-job.sh"
+            "Salaros\\MrPress\\Composer\\Scripts::createCronjob"
         ]
     },
-    "minimum-stability"                     : "stable",
+    "minimum-stability"                     : "dev",
     "prefer-stable"                         : true,
     "config": {
         "generate-salts"                    : true,
