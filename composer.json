@@ -29,8 +29,7 @@
         "php"                                       : ">=5.5",
         "fxp/composer-asset-plugin"                 : "~1.3.0",
         "wp-cli/wp-cli"                             : "~1.0",
-        "johnpbloch/wordpress"                      : "~4.8.0",
-        "anolilab/wordpress-salt-generator"         : "^1.2",
+        "johnpbloch/wordpress-core"                 : "~4.8.0",
         "vlucas/phpdotenv"                          : "^2.2",
         "salaros/mr-press-child-theme"              : "*",
         "salaros/mr-press-composer"                 : "*"
@@ -48,7 +47,7 @@
     },
     "scripts": {
         "post-create-project-cmd"           : [
-            "Anolilab\\Wordpress\\SaltGenerator\\Generator::addSalts"
+            "Salaros\\MrPress\\Composer\\Scripts::addSalts"
         ],
         "initialize"                        : [
             "Salaros\\MrPress\\Composer\\Scripts::createDatabase",
@@ -75,6 +74,6 @@
                 "npm-asset-library"         : "wp-content/npm-asset",
                 "bower-asset-library"       : "wp-content/bower-asset"
             }
-        }        
+        }
     }
 }
