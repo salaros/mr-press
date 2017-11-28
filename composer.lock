@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "58703079bc5dad568606ef39f8e8dd9e",
+    "content-hash": "6da0bf7bfb89bfc5c00897ce0d507f0b",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -3275,16 +3275,16 @@
         },
         {
             "name": "wp-cli/scaffold-command",
-            "version": "v1.0.12",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/scaffold-command.git",
-                "reference": "d6ed1d24580662c063deab4cf7202ed3970f9987"
+                "reference": "f174112ae3dd88df3b29a68b71b6d72171ba62c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/scaffold-command/zipball/d6ed1d24580662c063deab4cf7202ed3970f9987",
-                "reference": "d6ed1d24580662c063deab4cf7202ed3970f9987",
+                "url": "https://api.github.com/repos/wp-cli/scaffold-command/zipball/f174112ae3dd88df3b29a68b71b6d72171ba62c3",
+                "reference": "f174112ae3dd88df3b29a68b71b6d72171ba62c3",
                 "shasum": ""
             },
             "require-dev": {
@@ -3299,6 +3299,7 @@
                 "commands": [
                     "scaffold",
                     "scaffold _s",
+                    "scaffold block",
                     "scaffold child-theme",
                     "scaffold plugin",
                     "scaffold plugin-tests",
@@ -3329,7 +3330,7 @@
             ],
             "description": "Generate code for post types, taxonomies, plugins, child themes, etc.",
             "homepage": "https://github.com/wp-cli/scaffold-command",
-            "time": "2017-11-21T01:01:19+00:00"
+            "time": "2017-11-28T13:27:30+00:00"
         },
         {
             "name": "wp-cli/search-replace-command",
