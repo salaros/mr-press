@@ -1,9 +1,14 @@
 # Mr. Press
 [![Latest Stable Version](https://poser.pugx.org/salaros/mr-press/v/stable)](https://packagist.org/packages/salaros/mr-press)
-[![Dependency Status](https://www.versioneye.com/user/projects/57bfee1d69d9490042f72c31/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/57bfee1d69d9490042f72c31)
-[![Packagist](https://img.shields.io/packagist/dt/salaros/mr-press.svg)](https://packagist.org/packages/salaros/mr-press/stats)
+[![Packagist type](https://img.shields.io/badge/Packagist-library-pink.svg)](https://packagist.org/packages/salaros/mr-press)
+[![Packagist downloads](https://img.shields.io/packagist/dt/salaros/mr-press.svg)](https://packagist.org/packages/salaros/mr-press/stats)
 [![License](https://poser.pugx.org/salaros/mr-press/license)](https://packagist.org/packages/salaros/mr-press)
 [![Gitter](https://badges.gitter.im/Mr-Press/Lobby.svg)](https://gitter.im/Mr-Press/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=body_badge)
+
+[![SensioLabs Insight](https://img.shields.io/sensiolabs/i/5e21fcee-41e1-4e12-82c6-c1a4549c44a2.svg)](https://insight.sensiolabs.com/projects/5e21fcee-41e1-4e12-82c6-c1a4549c44a2)
+[![Build Status](https://scrutinizer-ci.com/g/salaros/mr-press/badges/build.png?b=master)](https://scrutinizer-ci.com/g/salaros/mr-press/build-status/master)
+[![Dependency Status](https://www.versioneye.com/user/projects/57bfee1d69d9490042f72c31/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/57bfee1d69d9490042f72c31)
+[![composer.lock](https://poser.pugx.org/salaros/mr-press/composerlock)](https://packagist.org/packages/salaros/mr-press)
 
 **Mr. Press** is a [WordPress](https://wordpress.org/) development stack similar to [Bedrock](https://github.com/roots/bedrock).
 Project's main goal is to improve the overall security, portability and deployment process of WordPress, while trying to use the best web development practices.
