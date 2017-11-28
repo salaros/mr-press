@@ -1,7 +1,7 @@
 <?php
 
 // Make sure there is an action first
-if ( ! isset( $_REQUEST['action'] ) ) {
+if ( ! isset( $_REQUEST[ 'action' ] ) ) {
 	die( '0' );
 }
 
@@ -26,7 +26,7 @@ require_once sprintf( '%s/wp-includes/plugin.php', ABSPATH );
 /**
  * This is just an example of a secrept WordPress feature called "fast ajax"
  */
-add_action( 'wp_ajax_example', function () {
+add_action( 'wp_ajax_example', function() {
 	// Include the now instantiated global $wpdb Class for use
 	global $wpdb;
 
@@ -43,7 +43,7 @@ add_action( 'wp_ajax_example', function () {
 // ========= ! DO NOT EDIT THE CODE BELOW ! ========= //
 
 try {
-	$action_name = sprintf( 'wp_ajax_%s', $_REQUEST['action'] );
+	$action_name = sprintf( 'wp_ajax_%s', $_REQUEST[ 'action' ] );
 	do_action( $action_name );
 	die( '0' );
 } catch ( \Exception $ex ) {
