@@ -582,16 +582,16 @@
         },
         {
             "name": "fxp/composer-asset-plugin",
-            "version": "v1.3.1",
+            "version": "v1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fxpio/composer-asset-plugin.git",
-                "reference": "0bfdd307d2cddbc42c634b14247f3f3a8525b836"
+                "reference": "61352d99940d2b2392a5d2db83b8c0ef5faf222a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fxpio/composer-asset-plugin/zipball/0bfdd307d2cddbc42c634b14247f3f3a8525b836",
-                "reference": "0bfdd307d2cddbc42c634b14247f3f3a8525b836",
+                "url": "https://api.github.com/repos/fxpio/composer-asset-plugin/zipball/61352d99940d2b2392a5d2db83b8c0ef5faf222a",
+                "reference": "61352d99940d2b2392a5d2db83b8c0ef5faf222a",
                 "shasum": ""
             },
             "require": {
@@ -605,7 +605,7 @@
             "extra": {
                 "class": "Fxp\\Composer\\AssetPlugin\\FxpAssetPlugin",
                 "branch-alias": {
-                    "dev-master": "1.3-dev"
+                    "dev-master": "1.4-dev"
                 }
             },
             "autoload": {
@@ -637,7 +637,7 @@
                 "npm",
                 "package"
             ],
-            "time": "2017-04-09T11:49:10+00:00"
+            "time": "2017-10-20T06:53:56+00:00"
         },
         {
             "name": "ircmaxell/random-lib",
@@ -1155,16 +1155,16 @@
         },
         {
             "name": "salaros/mr-press-child-theme",
-            "version": "0.3.2",
+            "version": "0.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/salaros/mr-press-child-theme.git",
-                "reference": "c344af65c71d5b1ee9db9f75411b6a49386c2e27"
+                "reference": "7bb66a0be09f1ba181a86ff7cffe7bc612deeb99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/salaros/mr-press-child-theme/zipball/c344af65c71d5b1ee9db9f75411b6a49386c2e27",
-                "reference": "c344af65c71d5b1ee9db9f75411b6a49386c2e27",
+                "url": "https://api.github.com/repos/salaros/mr-press-child-theme/zipball/7bb66a0be09f1ba181a86ff7cffe7bc612deeb99",
+                "reference": "7bb66a0be09f1ba181a86ff7cffe7bc612deeb99",
                 "shasum": ""
             },
             "require": {
@@ -1173,16 +1173,12 @@
                 "bower-asset/normalize.css": "~3.0.0",
                 "bower-asset/respond": "~1.4.0",
                 "bower-asset/semantic": "~2.2.0",
-                "fxp/composer-asset-plugin": "~1.3.0",
+                "fxp/composer-asset-plugin": "~1.4.0",
                 "salaros/mr-press-theme": "*",
                 "wpackagist-plugin/wp-postviews": "*"
             },
             "type": "wordpress-theme",
             "extra": {
-                "asset-installer-paths": {
-                    "npm-asset-library": "../../npm-asset",
-                    "bower-asset-library": "../../bower-asset"
-                },
                 "installer-paths": {
                     "../../plugins/{$name}/": [
                         "type:wordpress-plugin"
@@ -1205,20 +1201,20 @@
                 }
             ],
             "description": "A child theme of Mr. Press default theme, it's a starting point for your projects",
-            "time": "2017-10-15T22:32:58+00:00"
+            "time": "2017-11-28T14:10:21+00:00"
         },
         {
             "name": "salaros/mr-press-composer",
-            "version": "0.5.0",
+            "version": "0.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/salaros/mr-press-composer.git",
-                "reference": "b0a724990dca93d0d3419e1a56f8963cdaf2611e"
+                "reference": "58bce3917e5af7755d4d811098fd7cc962682f12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/salaros/mr-press-composer/zipball/b0a724990dca93d0d3419e1a56f8963cdaf2611e",
-                "reference": "b0a724990dca93d0d3419e1a56f8963cdaf2611e",
+                "url": "https://api.github.com/repos/salaros/mr-press-composer/zipball/58bce3917e5af7755d4d811098fd7cc962682f12",
+                "reference": "58bce3917e5af7755d4d811098fd7cc962682f12",
                 "shasum": ""
             },
             "require": {
@@ -1226,7 +1222,7 @@
                 "qi-interactive/cron": "*@dev",
                 "salaros/wp-salts": "~0.3.0",
                 "vlucas/phpdotenv": "~2.0",
-                "wp-cli/wp-cli": "~1.0"
+                "wp-cli/wp-cli": "~1.4.0"
             },
             "require-dev": {
                 "sphpdox/sphpdox": "dev-master@dev"
@@ -1258,7 +1254,7 @@
                 "script",
                 "wordpress"
             ],
-            "time": "2017-11-28T12:50:39+00:00"
+            "time": "2017-11-28T14:15:05+00:00"
         },
         {
             "name": "salaros/mr-press-theme",
