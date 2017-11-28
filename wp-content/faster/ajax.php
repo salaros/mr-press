@@ -1,7 +1,5 @@
 <?php
 
-// ini_set( 'display_errors', 1 ); ini_set( 'error_reporting', -1 );
-
 // Make sure there is an action first
 if ( ! isset( $_REQUEST['action'] ) ) {
 	die( '0' );

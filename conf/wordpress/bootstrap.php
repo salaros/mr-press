@@ -2,11 +2,6 @@
 
 global $locale;
 
-// ** Set verbose error reporting, which then can be overriden **//
-// ** by the environment-specific file ** //
-ini_set( 'error_reporting', -1 );
-ini_set( 'display_errors', 1 );
-
 $root_dir = dirname( dirname( __DIR__ ) );
 
 // ** Use root_dir to define ABSPATH if it has not been defined yet ** //
